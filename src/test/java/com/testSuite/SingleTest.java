@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SingleTest extends TestNGTest {
+public class SingleTest extends BStackNGTest {
 
     @Test
     public void test() throws Exception {

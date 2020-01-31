@@ -1,0 +1,33 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "nimrodgrinvald1",
+  "key": "PvKJHEp7GYqdopiFdyLT",
+  "capabilities": {
+    "project": "Technical Challenge - Nim Grinvald",
+    "build": "One Point Oh",
+    "name": "Bstack-[TestNG] Sample Simple Test",
+    "browserstack.debug": true
+  },
+  "environments": {
+    "windows10Chrome": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "chrome"
+    },
+    "windows10ie": {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "IE"
+    },
+    "macosFirefox": {
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "Firefox"
+    },
+    "macosSafari": {
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "Safari"
+    }
+  }
+}

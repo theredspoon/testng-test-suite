@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Single">
-    <test name="SingleTest">
+<suite name="Single" thread-count="4" parallel="tests">
+    <test name="Windows 10 Chrome">
+        <parameter name="config" value="single.conf.json" />
+        <parameter name="environment" value="windows10Chrome" />
         <classes>
-            <class name="com.testSuite.SingleTest"/>
+            <class name="com.testSuite.SingleTest" />
+        </classes>
+    </test>
+    <test name="Windows 10 IE">
+        <parameter name="config" value="single.conf.json" />
+        <parameter name="environment" value="windows10ie" />
+        <classes>
+            <class name="com.testSuite.SingleTest" />
+        </classes>
+    </test>
+    <test name="Mac OS Firefox">
+        <parameter name="config" value="single.conf.json" />
+        <parameter name="environment" value="macosFirefox" />
+        <classes>
+            <class name="com.testSuite.SingleTest" />
+        </classes>
+    </test>
+    <test name="Mac OS Safari">
+        <parameter name="config" value="single.conf.json" />
+        <parameter name="environment" value="macosSafari" />
+        <classes>
+            <class name="com.testSuite.SingleTest" />
         </classes>
     </test>
 </suite>
