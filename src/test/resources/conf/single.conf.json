@@ -1,12 +1,12 @@
 {
-  "server": "FILL_ME_IN",
-  "user": "FILL_ME_IN",
-  "key": "FILL_ME_IN",
+  "server": "hub-cloud.browserstack.com",
+  "user": "nimrodgrinvald1",
+  "key": "PvKJHEp7GYqdopiFdyLT",
   "capabilities": {
     "project": "Technical Challenge - Nim Grinvald",
     "build": "One Point Oh",
     "name": "Bstack-[TestNG] Sample Simple Test",
-    "browserstack.debug": true
+    "browserstack.debug": "true"
   },
   "environments": {
     "windows10Chrome": {

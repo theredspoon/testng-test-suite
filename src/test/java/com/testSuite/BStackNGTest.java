@@ -27,16 +27,16 @@ public class BStackNGTest {
     DesiredCapabilities capabilities = new DesiredCapabilities();
 
     Map<String, String> envCapabilities = (Map<String, String>) envs.get(environment);
-    Iterator it = envCapabilities.entrySet().iterator();
+    Iterator <Map.Entry<String, String>> it = envCapabilities.entrySet().iterator();
     while (it.hasNext()) {
-      Map.Entry pair = (Map.Entry) it.next();
+      Map.Entry<String, String> pair = (Map.Entry<String, String>) it.next();
       capabilities.setCapability(pair.getKey().toString(), pair.getValue().toString());
     }
 
     Map<String, String> commonCapabilities = (Map<String, String>) config.get("capabilities");
     it = commonCapabilities.entrySet().iterator();
     while (it.hasNext()) {
-      Map.Entry pair = (Map.Entry) it.next();
+      Map.Entry<String, String> pair = (Map.Entry<String, String>) it.next();
       if (capabilities.getCapability(pair.getKey().toString()) == null) {
         capabilities.setCapability(pair.getKey().toString(), pair.getValue().toString());
       }
