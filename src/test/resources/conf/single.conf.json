@@ -1,7 +1,7 @@
 {
-  "server": "hub-cloud.browserstack.com",
-  "user": "nimrodgrinvald1",
-  "key": "PvKJHEp7GYqdopiFdyLT",
+  "server": "FILL_ME_IN",
+  "user": "FILL_ME_IN",
+  "key": "FILL_ME_IN",
   "capabilities": {
     "project": "Technical Challenge - Nim Grinvald",
     "build": "One Point Oh",
